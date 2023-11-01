@@ -7,4 +7,4 @@ for i in range(90, 65, -1):
     else:
         c = i
         prevFlag = True
-    print(f"{chr(c)}", end="")
+    print("{}".format(chr(c)), end="")
